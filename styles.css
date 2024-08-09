@@ -1,0 +1,123 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.body-system {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.body-system img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.text-content {
+    max-width: 600px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Existing styles... */
+
+.feature img {
+    width: 100%;
+    max-width: 300px; /* Adjust this value to control the size of the images */
+    height: auto; /* Maintains the aspect ratio */
+    display: block;
+    max-width: 200; /* Centers the image */
+}
+
+/* Ensure responsiveness */
+@media (max-width: 600px) {
+    .feature img {
+        max-width: 100%; /* Ensures images fit within smaller screens */
+    }
+}
+
+
+header {
+    background-color: #000001;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.tab-content {
+    display: none; /* Hide all sections by default */
+}
+
+.tab-content.active {
+    display: block; /* Show only the active section */
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
